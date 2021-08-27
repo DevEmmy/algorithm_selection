@@ -19,7 +19,7 @@ This is a Python Program that helps to select the ML Algorithm which has the hig
    
    Snippet:
    - from algorithm_selection import AlgorithmSelection
-   - model = AlgorithmSelection([LinearRegression(), DecisionTreeRegressor()],train_X, test_X, train_y, test_y )
+   - model = AlgorithmSelection(models = [LinearRegression(), DecisionTreeRegressor()],train_X=train_X, test_X=test_X, train_y=train_y, test_y=test_y )
    - print(model) 
    
    I hope you like this <3
